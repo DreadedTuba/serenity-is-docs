@@ -4,7 +4,7 @@ To show list of movies a person acted in, we'll add a tab to PersonDialog.
 
 Serenity supports making tabs from form script. 
 
-Make fallowing changes to *PersonForm.cs*:
+Make following changes to *PersonForm.cs*:
 ```cs
 namespace MovieTutorial.MovieDB.Forms
 {
