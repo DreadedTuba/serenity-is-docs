@@ -89,7 +89,7 @@ If, for example we wanted to assign different permissions for creating, updating
     [ReadPermission("Administration:User:Read")]
     [InsertPermission("Administration:User:Insert")]
     [UpdatePermission("Administration:User:Update")]
-    [InsertPermission("Administration:User:Delete")]
+    [DeletePermission("Administration:User:Delete")]
     [LookupScript(Permission = "Administration:Security")]
     public sealed class UserRow
     {
